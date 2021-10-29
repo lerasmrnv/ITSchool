@@ -1,0 +1,59 @@
+.header {
+    display: grid;
+    grid-template-areas: "header__div__menu header__div__logo header__div__login";
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background: #F6F4EC
+}
+
+.header__div__menu {
+    grid-area: header__div__menu;
+    justify-self: start;
+    align-self: center;
+}
+
+.header__div__logo {
+    grid-area: header__div__logo;
+    justify-self: center;
+
+    width: 120px;
+    height: 56px;
+}
+
+.header__div__login {
+    grid-area: header__div__login;
+    justify-self: end;
+    align-self: center;
+}
+
+.header__div__a__shop,
+.header__div__a__the-edit,
+.header__div__a__our-story,
+.header__div__a__reviews {
+    margin-left: 32px;
+
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.header__div__login__button {
+    margin-left: 20px;
+    border: none;
+}
+
+.header__div__a__shop,
+.header__div__a__the-edit,
+.header__div__a__our-story,
+.header__div__a__reviews,
+.header__div__login__account {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+
+    color: #B4604D;
+}
+
+.header__div__login__account {
+    font-size: 14px;
+}

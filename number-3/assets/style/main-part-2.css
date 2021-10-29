@@ -1,0 +1,72 @@
+.main__section__part-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 5fr;
+    grid-template-areas: "main__section__part-2__name main__section__part-2__name main__section__part-2__name"
+        "main__section__part-2__point-1 main__section__part-2__point-2 main__section__part-2__point-3";
+
+    background: #F6F4EC;
+}
+
+.main__section__part-2__point-1 {
+    grid-area: main__section__part-2__point-1;
+}
+
+.main__section__part-2__point-2 {
+    grid-area: main__section__part-2__point-2;
+}
+
+.main__section__part-2__point-3 {
+    grid-area: main__section__part-2__point-3;
+}
+
+.main__section__part-2__name {
+    grid-area: main__section__part-2__name;
+    padding-top: 30px;
+
+    text-align: center;
+    font-size: 23px;
+    line-height: 39px;
+}
+
+.main__section__part-2__point-1,
+.main__section__part-2__point-2,
+.main__section__part-2__point-3 {
+    padding-left: 25px;
+    margin: 30px;
+}
+
+.main__section__part-2__point-1__image,
+.main__section__part-2__point-2__image,
+.main__section__part-2__point-3__image {
+    height: 567px;
+    width: 380px;
+}
+
+.main__section__part-2__name,
+.main__section__part-2__point-1__name,
+.main__section__part-2__point-2__name,
+.main__section__part-2__point-3__name,
+.main__section__part-2__point-1__price,
+.main__section__part-2__point-2__price,
+.main__section__part-2__point-3__price {
+    color: #B45F4D;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main__section__part-2__point-1__name,
+.main__section__part-2__point-2__name,
+.main__section__part-2__point-3__name {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.main__section__part-2__point-1__price,
+.main__section__part-2__point-2__price,
+.main__section__part-2__point-3__price {
+    font-size: 16px;
+    line-height: 16px;
+}

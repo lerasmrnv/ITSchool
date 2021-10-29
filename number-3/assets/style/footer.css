@@ -1,0 +1,33 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "footer__ul-1 footer__ul-2 auto";
+
+    background: #F6F4EC;
+}
+
+.footer__ul-1 {
+    grid-area: footer__ul-1;
+    list-style-type: none;
+}
+
+.footer__ul-2 {
+    grid-area: footer__ul-2;
+    list-style-type: none;
+}
+
+.footer__ul-1__li__a,
+.footer__ul-2__li__a {
+    text-decoration: none;
+}
+
+.footer__ul-1__li__a,
+.footer__ul-2__li__a {
+    color: #B45F4D;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}

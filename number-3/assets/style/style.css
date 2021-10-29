@@ -1,0 +1,17 @@
+.app {
+    display: grid;
+    width: 1440px;
+    grid-template-rows: 1fr auto 3fr;
+}
+
+.header {
+    grid-row: 1/2;
+}
+
+.main {
+    grid-row: 2/3;
+}
+
+.footer {
+    grid-row: 3/4;
+}

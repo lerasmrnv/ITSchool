@@ -1,0 +1,25 @@
+.main__section__main {
+    background: url(./../image/fon.png);
+    width: 1440px;
+    height: 435px;
+    justify-self: center;
+}
+
+.main__section__button__shop-now {
+    margin: 332px 656px;
+
+    border: none;
+    width: 128px;
+    height: 48px;
+
+    background-color: #B45F4D;
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+}
+
+.main__section__button__shop-now:hover {
+    background-color: #b9290d;
+}

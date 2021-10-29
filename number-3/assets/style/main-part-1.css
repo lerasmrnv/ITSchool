@@ -1,0 +1,38 @@
+.main__section__part-1 {
+    display: grid;
+    grid-template-columns: 7% 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+
+    background: #A9AE8D;
+}
+
+
+.main__section__part-1__text-1 {
+    grid-row: 2/3;
+
+    font-size: 18px;
+}
+
+.main__section__part-1__text-2 {
+    grid-row: 3/4;
+
+    font-size: 33px;
+}
+
+.main__section__part-1__text-3 {
+    grid-row: 4/5;
+
+    font-size: 16px;
+}
+
+.main__section__part-1__text-1,
+.main__section__part-1__text-2,
+.main__section__part-1__text-3 {
+    grid-column: 2/3;
+
+    color: #F6F4EC;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
